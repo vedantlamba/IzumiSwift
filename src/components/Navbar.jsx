@@ -30,7 +30,7 @@ const Navbar = () => {
 
           <div>
             {mobileDrawerOpen && (
-              <div className="absolute left-0 top-full w-full bg-neutral-200 border-t-0 border-neutral-500 z-20 animate-slide-down">
+              <div className="absolute left-0 top-full w-full bg-neutral-200 border-t-0 border-neutral-500 z-20 animate-slide-down transition">
                 <ul className="flex flex-col w-screen font-light mr-56 ml-9 mt-7 mb-16 text-lg">
                   {navItems.map((element, index) => (
                     <li
